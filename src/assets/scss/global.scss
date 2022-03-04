@@ -1,0 +1,84 @@
+.el-date-editor.el-input {
+    .el-input__inner {
+        background: rgba(37, 196, 255, 0.3);
+        border: 1px solid #25c4ff;
+        border-radius: 4px;
+        color: #ffffff;
+        opacity: 0.7;
+    }
+}
+
+.el-table .warning-row {
+    background: #1C83B6;
+    color: #fff;
+    border-color: transparent;
+}
+
+.el-table .success-row {
+    border-color: transparent;
+    background: #146494;
+}
+
+.el-table::before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0 !important;
+    background: transparent;
+}
+
+.el-input__inner {
+    background-color: transparent !important;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: inherit;
+    padding: 0 15px;
+    -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 90%;
+}
+
+.el-form-item__label {
+    color: #fff !important;
+}
+
+// ele dialog弹窗样式
+.el-dialog {
+    background: url("/static/dialog-bg1.jpg") !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-color: transparent !important;
+}
+
+.el-dialog__body {
+    background-color: transparent !important;
+}
+
+.el-dialog__header {
+    background-color: transparent !important;
+}
+
+.el-dialog__title{
+    display: block;
+    color: #8acbec !important;
+    font-size: 24px !important;
+    text-align: center;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+    color: #fff !important;
+    margin: 10px 10px 0 0;
+}
+
+/* 弹出层设置背景色 底部*/
+.el-dialog__footer {
+    background-color: transparent !important;
+}
+
+.el-table__row:hover {
+    color: #146494 !important;
+}

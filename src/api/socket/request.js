@@ -1,9 +1,10 @@
 import websocket from "@/utils/websocket";
 import Vue from "vue";
-const socketRequest = {
+export const socketRequest = {
     // 请求
     request: (option) => {
         //请求拦截
+        console.log(option)
         let isRequest = false//是否请求
         socketRequest.interceptors.request(option)
         if (websocket.isConnect && !isRequest) {

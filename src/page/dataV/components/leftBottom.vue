@@ -12,14 +12,14 @@
                     >
                     </el-date-picker>
                 </div>
-                <div class="btn flex-row-c-c ml10">历史告警数据</div>
+                <div class="btn flex-row-c-c ml10" style="cursor: pointer" @click="privateShow">历史告警数据</div>
             </div>
             <div>
                 <PeiChart></PeiChart>
             </div>
         </div>
         <div class="center">
-            <div class="main-box" style="height: 260px">
+            <div class="main-box" style="width:100%;height: 260px">
                 <div class="mian-title flex-row-sb-c">
                     <div class="title-left flex-row-sb-c">
                         <img
@@ -267,6 +267,9 @@ export default {
         };
     },
     methods: {
+        privateShow(){
+          this.$emit('show')
+        },
         hangdlePark(data){
             data==='park'?this.btn_word='正在执行':this.word='执行结束'
 

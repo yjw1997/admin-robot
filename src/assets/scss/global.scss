@@ -48,35 +48,36 @@
 
 // ele dialog弹窗样式
 .el-dialog {
-    background: url("/static/dialog-bg1.jpg") !important;
+    //background: url("/static/dialog-bg1.jpg");
     background-size: 100% 100% !important;
     background-repeat: no-repeat !important;
     background-color: transparent !important;
 }
-
+//
 .el-dialog__body {
     background-color: transparent !important;
+    color: #fff !important;
 }
-
+//
 .el-dialog__header {
     background-color: transparent !important;
 }
-
+//
 .el-dialog__title{
     display: block;
     color: #8acbec !important;
     font-size: 24px !important;
     text-align: center;
 }
-
+//
 .el-dialog__headerbtn .el-dialog__close {
-    color: #fff !important;
+    //color: #fff !important;
     margin: 10px 10px 0 0;
 }
-
+//
 /* 弹出层设置背景色 底部*/
 .el-dialog__footer {
-    background-color: transparent !important;
+    //background-color: transparent !important;
 }
 
 .el-table__row:hover {

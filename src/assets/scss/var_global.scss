@@ -120,6 +120,9 @@ $red:#FF4F2C;
 .el-date-editor.el-input .el-input__inner{
     border: 1px solid #ffff;
 }
+.el-picker-panel.el-date-picker.el-popper{
+    background-color: #104779 !important;
+}
 .el-select-dropdown.el-popper{
     background: #187AA8;
 }
@@ -149,4 +152,21 @@ $red:#FF4F2C;
     background: url('/static/btn/send.png') no-repeat;
     font-size: 16px;
     background-size: cover;
+}
+.sure_mea{
+    background: url('/static/global/btn/second/btn.png') no-repeat;
+    background-size: 100% 100%;
+}
+.smallbtn{
+    width: 185px;
+    height: 40px;
+}
+.white{
+    color: #fff;
+    background-size: 100% 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
